@@ -1,0 +1,22 @@
+const numArray = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16];
+let x;
+
+// Fisher-Yates shuffle
+const shuffle = (array) => {
+  for (let i = array.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1)); // random index from 0 to i
+    [array[i], array[j]] = [array[j], array[i]]; // swap elements
+  }
+}
+
+x = shuffle(numArray);
+console.log(x);
+
+===============================================================================
+
+activity 19-19 goes into JSX variable, remember this
+
+activity 19-25 goes into .json
+
+activity 19-26 mapping json into list
+activity 19-29 ditto

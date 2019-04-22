@@ -2,81 +2,81 @@
 	{
 		"id": 1,
 		"name": "Baron Underbheit",
-		"image": "/images/baron-underbheit.png"
+		"image": "../src/images/baron-underbheit.png"
 	},
 	{
 		"id": 2,
 		"name": "Billy Quizboy",
-		"image": "/images/billy-quizboy.png"
+		"image": "../src/images/billy-quizboy.png"
 	},
 	{
 		"id": 3,
 		"name": "Brock Sampson",
-		"image": "/images/brock-sampson.jpg"
+		"image": "../src/images/brock-sampson.jpg"
 	},
 	{
 		"id": 4,
 		"name": "Dean Venture",
-		"image": "/images/dean-venture.png"
+		"image": "../src/images/dean-venture.png"
 	},
 	{
 		"id": 5,
 		"name": "Dr Girlfriend",
-		"image": "/images/dr-girlfriend.png"
+		"image": "../src/images/dr-girlfriend.png"
 	},
 	{
 		"id": 6,
 		"name": "Dr Orpheus",
-		"image": "/images/dr-orpheus.png"
+		"image": "../src/images/dr-orpheus.png"
 	},
 	{
 		"id": 7,
 		"name": "Dr Venture",
-		"image": "/images/dr-venture.jpg"
+		"image": "../src/images/dr-venture.jpg"
 	},
 	{
 		"id": 8,
 		"name": "Hank Venture",
-		"image": "/images/hank-venture.png"
+		"image": "../src/images/hank-venture.png"
 	},
 	{
 		"id": 9,
 		"name": "Henchman 21",
-		"image": "/images/henchman-21.png"
+		"image": "../src/images/henchman-21.png"
 	},
 	{
 		"id": 10,
 		"name": "Henchman 24",
-		"image": "/images/henchman-24"
+		"image": "../src/images/henchman-24"
 	},
 	{
 		"id": 11,
 		"name": "Jonas Venture Jr",
-		"image": "/images/jonas-venture-jr.jpg"
+		"image": "../src/images/jonas-venture-jr.jpg"
 	},
 	{
 		"id": 12,
 		"name": "Jonas Venture Sr",
-		"image": "/images/jonas-venture-sr.jpg"
+		"image": "../src/images/jonas-venture-sr.jpg"
 	},
 	{
 		"id": 13,
 		"name": "Pete White",
-		"image": "/images/pete-white.jpg"
+		"image": "../src/images/pete-white.jpg"
 	},
 	{
 		"id": 14,
 		"name": "Richard Impossible",
-		"image": "/images/richard-impossible.jpg"
+		"image": "../src/images/richard-impossible.jpg"
 	},
 	{
 		"id": 15,
 		"name": "The Monarch",
-		"image": "/images/the-monarch.jpg"
+		"image": "../src/images/the-monarch.jpg"
 	},
 	{
 		"id": 16,
 		"name": "The Phantom Limb",
-		"image": "/images/the-phantom-limb.png"
+		"image": "../src/images/the-phantom-limb.png"
 	}
 ]
