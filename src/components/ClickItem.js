@@ -6,9 +6,9 @@ const ClickItem = ( props ) => {
     <div className = "clickItem">
       <div 
         className = "imgContainer"
-        onClick = { () => props.checkGuess( props.id ) }  
+        // onClick = { () => props.checkGuess( props.id ) }  
       >
-        <img alt = { props.name } src = { props.image } />
+        <img alt = { props.name } src = { props.image } class = "token" />
       </div>
     </div>
   );

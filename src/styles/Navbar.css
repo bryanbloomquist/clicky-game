@@ -1,0 +1,18 @@
+.navbar {
+  background-color: #222;
+  color: #ddd;
+  position: fixed;top:0px;left:0px;
+  width: 100%;
+}
+
+.navbar-item {
+  width: 33%;
+}
+
+.instructions {
+  text-align: center;
+}
+
+.scoreboard {
+  text-align: right;
+}

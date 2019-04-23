@@ -3,11 +3,15 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Container from "./components/Container";
 import ClickItem from "./components/ClickItem";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import ventures from "./ventures.json";
 
 class App extends Component {
   state = { ventures };
+
+  // checkGuess = ( id ) => {
+
+  // }
 
   render() {
     return (
@@ -15,15 +19,15 @@ class App extends Component {
         <Navbar />
         <Header />
         <Container>
-          { this.state.ventures.map( venture => {
+          { this.state.ventures.map(( venture ) => (
             <ClickItem 
               id = { venture.id }
               name = { venture.name }
               image = { venture.image }
             />
-          })}
+          ))}
         </Container>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }

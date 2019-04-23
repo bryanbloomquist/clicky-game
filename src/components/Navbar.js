@@ -1,18 +1,16 @@
 import React from "react";
 import "../styles/Navbar.css";
 
-function Navbar() {
+const Navbar = () => {
   return (
     <nav className = "navbar navbar-expand-lg">
-      <a className = "navbar-brand h1" href = "/">The Venture Bros</a>
-      <ul className = "navbar-nav mx-auto">
-        <li className = "nav-item">
-          Click an image to begin {/* Figure out how to make this dynamic */}
-        </li>
-        <li className = "nav-item">
-          Score: 0 | Top Score: 0 {/* Figure out how to make this dynamic */}
-        </li>
-      </ul>
+      <a className = "navbar-brand h1  navbar-item m-0" href = "/">The Venture Bros</a>
+      <span className = "instructions navbar-item">
+        Click an image to begin {/* Figure out how to make this dynamic using handleInputChange (maybe?) */}
+      </span>
+      <span className = "scoreboard navbar-item ">
+        Score: 0 | Top Score: 0 {/* Figure out how to make this dynamic */}
+      </span>
     </nav>
   );
 }

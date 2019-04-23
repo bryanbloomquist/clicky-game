@@ -1,0 +1,14 @@
+.imgContainer {
+  width: 25%;
+  float: left;
+  padding: 3px;
+}
+
+.token {
+  width: 100%;
+  border: 2px solid #f00;
+}
+
+@media screen and (max-width: 576px) {
+  .imgContainer {width:33%;}
+}

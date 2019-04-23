@@ -1,9 +1,13 @@
 import React from "react";
 import "../styles/Header.css";
 
-function Header() {
+const Header = () => {
   return (
-    <div className = "header">
+    <div className = "jumbotron jumbotron-fluid p-3">
+      <div className = "container mx-auto">
+        <p className = "lead">Click on an image to earn points,</p>
+        <p className = "lead">but don't click on any more than once!</p>
+      </div>
     </div>
   );
 }
