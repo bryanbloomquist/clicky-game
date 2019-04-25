@@ -1,5 +1,5 @@
 .imgContainer {
-  width: 25%;
+  width: 20%;
   float: left;
   padding: 3px;
 }
@@ -9,6 +9,8 @@
   border: 2px solid #f00;
 }
 
-@media screen and (max-width: 576px) {
-  .imgContainer {width:33%;}
+@media screen and (max-width: 768px) {
+  .imgContainer {
+    width:33%;
+  }
 }

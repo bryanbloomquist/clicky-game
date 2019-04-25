@@ -2,81 +2,91 @@
 	{
 		"id": 1,
 		"name": "Baron Underbheit",
-		"image": "images/baron-underbheit.png"
+		"image": "images/baron-underbheit.png",
+		"clicked": false
 	},
 	{
 		"id": 2,
 		"name": "Billy Quizboy",
-		"image": "images/billy-quizboy.png"
+		"image": "images/billy-quizboy.png",
+		"clicked": false
 	},
 	{
 		"id": 3,
 		"name": "Brock Sampson",
-		"image": "images/brock-sampson.jpg"
+		"image": "images/brock-sampson.jpg",
+		"clicked": false
 	},
 	{
 		"id": 4,
 		"name": "Dean Venture",
-		"image": "images/dean-venture.png"
+		"image": "images/dean-venture.png",
+		"clicked": false
 	},
 	{
 		"id": 5,
 		"name": "Dr Girlfriend",
-		"image": "images/dr-girlfriend.png"
+		"image": "images/dr-girlfriend.png",
+		"clicked": false
 	},
 	{
 		"id": 6,
 		"name": "Dr Orpheus",
-		"image": "images/dr-orpheus.png"
+		"image": "images/dr-orpheus.png",
+		"clicked": false
 	},
 	{
 		"id": 7,
 		"name": "Dr Venture",
-		"image": "images/dr-venture.jpg"
+		"image": "images/dr-venture.jpg",
+		"clicked": false
 	},
 	{
 		"id": 8,
 		"name": "Hank Venture",
-		"image": "images/hank-venture.png"
+		"image": "images/hank-venture.png",
+		"clicked": false
 	},
 	{
 		"id": 9,
 		"name": "Henchman 21",
-		"image": "images/henchman-21.png"
+		"image": "images/henchman-21.png",
+		"clicked": false
 	},
 	{
 		"id": 10,
 		"name": "Henchman 24",
-		"image": "images/henchman-24.png"
+		"image": "images/henchman-24.png",
+		"clicked": false
 	},
 	{
 		"id": 11,
 		"name": "Jonas Venture Jr",
-		"image": "images/jonas-venture-jr.jpg"
+		"image": "images/jonas-venture-jr.jpg",
+		"clicked": false
 	},
 	{
 		"id": 12,
 		"name": "Jonas Venture Sr",
-		"image": "images/jonas-venture-sr.jpg"
+		"image": "images/jonas-venture-sr.jpg",
+		"clicked": false
 	},
 	{
 		"id": 13,
 		"name": "Pete White",
-		"image": "images/pete-white.jpg"
+		"image": "images/pete-white.jpg",
+		"clicked": false
 	},
 	{
 		"id": 14,
-		"name": "Richard Impossible",
-		"image": "images/richard-impossible.jpg"
+		"name": "The Monarch",
+		"image": "images/the-monarch.jpg",
+		"clicked": false
 	},
 	{
 		"id": 15,
-		"name": "The Monarch",
-		"image": "images/the-monarch.jpg"
-	},
-	{
-		"id": 16,
 		"name": "The Phantom Limb",
-		"image": "images/the-phantom-limb.png"
+		"image": "images/the-phantom-limb.png",
+		"clicked": false
 	}
 ]
