@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import Container from "./components/Container";
 import ClickItem from "./components/ClickItem";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 import VenturesJSON from "./ventures.json";
 
 class App extends Component {
@@ -10,7 +11,7 @@ class App extends Component {
     ventures: VenturesJSON,
     score: 0,
     highScore: 0,
-    display: "Click on an image to earn points, but don't click on any more than once!"
+    display: "Click an image to begin"
   };
 
   gameOver = () => {
@@ -32,29 +33,26 @@ class App extends Component {
     });
     this.setState ({
       score: 0,
-      highScore: 16,
+      highScore: 15,
       display: "Perfect Score!",
     });
   };
 
   checkGuess = ( id ) => {
-    console.log( id );
     let guessedVentures = this.state.ventures;
-    console.log( guessedVentures );
     let currentScore = this.state.score;
     let guess;
 
     for ( let i = 0; i < guessedVentures.length; i++ ) {
       if ( guessedVentures[i].id === id ) {
         guess = guessedVentures[i]
-        console.log( guess );
       }
     }
 
     if ( guess.clicked === false ) {
       guess.clicked = true;
       currentScore++;
-      if ( currentScore === 16 ) { 
+      if ( currentScore === 15 ) { 
         this.gameWin(); 
       } else {
         this.setState({
@@ -77,8 +75,9 @@ class App extends Component {
           score = { this.state.score }
           highScore = { this.state.highScore }
         />
+        <Header />
         <Container>
-          { this.state.ventures.map(( venture ) => (
+          { this.state.ventures.sort( () => Math.random() - 0.5 ).map(( venture ) => (
             <ClickItem 
               checkGuess = { this.checkGuess }
               clicked = { venture.clicked }
@@ -89,7 +88,7 @@ class App extends Component {
             />
           ))}
         </Container>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     );
   }

@@ -1,0 +1,16 @@
+.footer {
+  background-color: #000;
+  background-image: url("../images/venture-background.jpg"), url("../images/venture-background.jpg");
+  background-repeat: no-repeat;
+  background-size: contain, contain;
+  background-position: left top, right top;
+  clear: both;
+}
+
+.lead {
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: #f00;
+}
