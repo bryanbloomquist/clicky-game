@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
-import Header from "./components/Header";
+// import Header from "./components/Header";
 import Container from "./components/Container";
 import ClickItem from "./components/ClickItem";
 import Footer from "./components/Footer";
@@ -11,7 +11,7 @@ class App extends Component {
     ventures: VenturesJSON,
     score: 0,
     highScore: 0,
-    display: "Click an image to begin"
+    display: "Click any image to begin, but don't click the same image more than once."
   };
 
   gameOver = () => {
@@ -75,7 +75,7 @@ class App extends Component {
           score = { this.state.score }
           highScore = { this.state.highScore }
         />
-        <Header />
+        {/* <Header /> */}
         <Container>
           { this.state.ventures.sort( () => Math.random() - 0.5 ).map(( venture ) => (
             <ClickItem 

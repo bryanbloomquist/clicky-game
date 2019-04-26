@@ -1,18 +1,29 @@
 .navbar {
-  background-color: #222;
+  background-image: radial-gradient(circle, #444, #000 60%);
   color: #ddd;
   position: fixed;top:0px;left:0px;
   width: 100%;
+  z-index: 1;
 }
 
-.navbar-item {
-  width: 33%;
+.logo {
+  margin: 0px;
+  padding: 0px;
+  width: 25%;
+}
+
+.logo img {
+  height: 100px;
 }
 
 .instructions {
+  font-size: 22px;
+  width: 50%;
   text-align: center;
 }
 
 .scoreboard {
+  width: 25%;
+  font-size: 22px;
   text-align: right;
 }

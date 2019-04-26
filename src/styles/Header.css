@@ -1,6 +1,8 @@
 .jumbotron {
-  background-color: #000;
-  background-image: url("../images/venture-background.jpg"), url("../images/venture-background.jpg");
+  background-image: 
+    url("../images/venture-background.jpg"), 
+    url("../images/venture-background.jpg"), 
+    radial-gradient(circle, #222, #000);
   background-repeat: no-repeat;
   background-size: contain, contain;
   background-position: left top, right top;
@@ -10,6 +12,4 @@
 .header {
   text-align: center;
   color: #fff;
-  -webkit-text-stroke-width: .5px;
-  -webkit-text-stroke-color: #f00;
 }

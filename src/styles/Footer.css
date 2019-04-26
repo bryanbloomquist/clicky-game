@@ -1,9 +1,5 @@
 .footer {
-  background-color: #000;
-  background-image: url("../images/venture-background.jpg"), url("../images/venture-background.jpg");
-  background-repeat: no-repeat;
-  background-size: contain, contain;
-  background-position: left top, right top;
+  background-image: radial-gradient(circle, #444, #000 40%);
   clear: both;
 }
 
