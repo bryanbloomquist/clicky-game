@@ -34,7 +34,7 @@ class App extends Component {
     });
     this.setState ({
       score: 0,
-      highScore: 15,
+      highScore: 12,
       display: "Perfect Score!",
     });
   };
@@ -54,7 +54,7 @@ class App extends Component {
       this.setState({ divStyle: "#0fa" });
       guess.clicked = true;
       currentScore++;
-      if ( currentScore === 15 ) { 
+      if ( currentScore === 12 ) { 
         this.gameWin(); 
       } else {
         this.setState({
