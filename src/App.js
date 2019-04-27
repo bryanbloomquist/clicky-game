@@ -7,7 +7,8 @@ import Footer from "./components/Footer";
 import VenturesJSON from "./ventures.json";
 
 class App extends Component {
-  state = { 
+  state = {
+    divStyle: "#ddd",
     ventures: VenturesJSON,
     score: 0,
     highScore: 0,
@@ -24,7 +25,11 @@ class App extends Component {
     this.setState ({
       score: 0,
       display: "You Guessed Incorrectly! Click on an image to try again.",
+      divStyle: "#f00"
     });
+    // setTimeout(() => {
+    //   this.setState({ divStyle: "#ddd" });
+    // }, 2000);
   };
 
   gameWin = () => {
@@ -50,6 +55,10 @@ class App extends Component {
     }
 
     if ( guess.clicked === false ) {
+      this.setState({ divStyle: "#0fa" });
+      // setTimeout(() => {
+      //   this.setState({ divStyle: "#ddd" });
+      // }, 2000);
       guess.clicked = true;
       currentScore++;
       if ( currentScore === 15 ) { 
@@ -60,7 +69,6 @@ class App extends Component {
           score: currentScore,
           display: "You Guessed Correctly!"
         })
-        this.state.ventures.sort( () => Math.random() - 0.5 )
       }
     } else {
       this.gameOver();
@@ -74,8 +82,8 @@ class App extends Component {
           display = { this.state.display }          
           score = { this.state.score }
           highScore = { this.state.highScore }
+          divStyle = { this.state.divStyle }
         />
-        {/* <Header /> */}
         <Container>
           { this.state.ventures.sort( () => Math.random() - 0.5 ).map(( venture ) => (
             <ClickItem 

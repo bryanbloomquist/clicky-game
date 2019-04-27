@@ -31,8 +31,8 @@
 	},
 	{
 		"id": 6,
-		"name": "Dr Orpheus",
-		"image": "images/dr-orpheus.png",
+		"name": "The Monarch",
+		"image": "images/the-monarch.jpg",
 		"clicked": false
 	},
 	{
@@ -61,30 +61,12 @@
 	},
 	{
 		"id": 11,
-		"name": "Jonas Venture Jr",
-		"image": "images/jonas-venture-jr.jpg",
-		"clicked": false
-	},
-	{
-		"id": 12,
-		"name": "Jonas Venture Sr",
-		"image": "images/jonas-venture-sr.jpg",
-		"clicked": false
-	},
-	{
-		"id": 13,
 		"name": "Pete White",
 		"image": "images/pete-white.jpg",
 		"clicked": false
 	},
 	{
-		"id": 14,
-		"name": "The Monarch",
-		"image": "images/the-monarch.jpg",
-		"clicked": false
-	},
-	{
-		"id": 15,
+		"id": 12,
 		"name": "The Phantom Limb",
 		"image": "images/the-phantom-limb.png",
 		"clicked": false

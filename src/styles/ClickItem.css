@@ -1,7 +1,7 @@
 .imgContainer {
-  width: 20%;
+  width: 33%;
   float: left;
-  padding: 10px;
+  padding: 15px;
 }
 
 .token {
@@ -27,8 +27,14 @@
   transform:scale(1.2);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 576px) {
   .imgContainer {
-    width:33%;
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .imgContainer {
+    width: 16.5%;
   }
 }
