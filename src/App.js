@@ -27,9 +27,6 @@ class App extends Component {
       display: "You Guessed Incorrectly! Click on an image to try again.",
       divStyle: "#f00"
     });
-    // setTimeout(() => {
-    //   this.setState({ divStyle: "#ddd" });
-    // }, 2000);
   };
 
   gameWin = () => {
@@ -56,9 +53,6 @@ class App extends Component {
 
     if ( guess.clicked === false ) {
       this.setState({ divStyle: "#0fa" });
-      // setTimeout(() => {
-      //   this.setState({ divStyle: "#ddd" });
-      // }, 2000);
       guess.clicked = true;
       currentScore++;
       if ( currentScore === 15 ) { 
