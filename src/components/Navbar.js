@@ -4,7 +4,7 @@ import "../styles/Navbar.css";
 const Navbar = ( props ) => {
   return (
     <nav className = "navbar navbar-expand-lg">
-      <a className = "navbar-brand h1 navbar-item logo m-0" href = "/clicky-game">
+      <a className = "navbar-brand h1 navbar-item logo m-0" href = "./clicky-game">
         <img src = "images/venture.jpg" alt = "Venture Bros Logo"/>
       </a>
       <span 
